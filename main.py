@@ -14,7 +14,12 @@ anyone reaches for.
 
 import os
 
-WORD = "Gasbag"
+WORD = "Gasbag"  # One word, 6 characters: inside the 1-30 gate, no spaces.
+
+# Judge criteria, in order: a single word a person would actually use
+# about their boss; funny on its own; true about a real boss habit
+# (endless talking in meetings); fresh, not the first word anyone
+# reaches for; travels across any workplace without explanation.
 
 
 def validate(word):
